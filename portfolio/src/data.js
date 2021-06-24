@@ -1,150 +1,164 @@
-export const featuredPortfolio = [
+export const MernPortfolio = [
     {
         id: 1,
+        title: "E-Commerce App",
+        img:
+            "https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: 'https://github.com/joesmall37/E-Commerce-'
+    },
+    {
+        id: 2,
         title: "Social Media App",
         img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 2,
-        title: "Rampa UI Design",
-        img:
-            "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/5744251/pexels-photo-5744251.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: ''
     },
     {
         id: 3,
-        title: "E-commerce Web Design",
+        title: "To Do List",
         img:
-            "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/1226398/pexels-photo-1226398.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: ''
     },
     {
         id: 4,
-        title: "Relax Mobile App",
+        title: "Book List",
         img:
-            "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/4440123/pexels-photo-4440123.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: ''
     },
     {
         id: 5,
-        title: "Hero Web Design",
+        title: "Employee Directory",
         img:
-            "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: ''
     },
     {
         id: 6,
-        title: "Banking App",
+        title: "Music App",
         img:
-            "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: ''
     },
 ];
 
-export const webPortfolio = [
+export const JavascriptPortfolio = [
     {
         id: 1,
-        title: "Web Social Media App",
-        img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        title: "Last Resort",
+        img: "https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: ''
     },
     {
         id: 2,
-        title: "Web Rampa UI Design",
-        img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+        title: "Quiz",
+        img: "https://images.pexels.com/photos/239548/pexels-photo-239548.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: ''
     },
     {
         id: 3,
-        title: "Web E-commerce Design",
-        img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+        title: "Rock Paper Scissors",
+        img: "https://images.pexels.com/photos/4472822/pexels-photo-4472822.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: ''
     },
     {
         id: 4,
-        title: "Web Relax App",
-        img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+        title: "Note Taker",
+        img: "https://images.pexels.com/photos/531844/pexels-photo-531844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: ''
     },
     {
         id: 5,
-        title: "Web Design",
-        img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
+        title: "Bartcoin",
+        img: "https://images.pexels.com/photos/315788/pexels-photo-315788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: ''
     },
     {
         id: 6,
-        title: "Web Banking App",
-        img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+        title: "Workout Tracker",
+        img: "https://user-images.githubusercontent.com/63420051/120858092-432cd800-c550-11eb-9e83-eb9f044cdeb4.png",
+        link: ''
     },
 ];
 
-export const mobilePortfolio = [
+export const PythonPortfolio = [
     {
         id: 1,
-        title: "Mobile Social Media App",
+        title: "Coffee Machine",
         img:
-            "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/1493104/pexels-photo-1493104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: 'https://github.com/joesmall37/Coffee-Machine---OOP'
     },
     {
         id: 2,
-        title: "Mobile Rampa UI Design",
+        title: "To Do List",
         img:
-            "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 3,
-        title: "Mobile E-commerce Design",
+        title: "Sales Analytics",
         img:
-            "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 4,
-        title: "Mobile Relax App",
+        title: "Twitter",
         img:
-            "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/5417837/pexels-photo-5417837.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 5,
-        title: "Mobile Hero Design",
+        title: "Automation",
         img:
-            "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/5767595/pexels-photo-5767595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 6,
-        title: "Mobile Banking App",
+        title: "Facial Recognition",
         img:
-            "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+            "https://images.pexels.com/photos/8090297/pexels-photo-8090297.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
 ];
 
-export const designPortfolio = [
+export const Dsaportfolio = [
     {
         id: 1,
-        title: "Design Social Media App",
+        title: "Algorithms Python",
         img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+            "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+
     },
     {
         id: 2,
-        title: "Design Rampa UI Design",
+        title: "Algorithms Javascript",
         img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+            "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 3,
-        title: "Design E-commerce Web Design",
+        title: "Data Structures Python",
         img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+            "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 4,
-        title: "Design Relax Mobile App",
+        title: "Data Structures Javascript",
         img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+            "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 5,
-        title: "Design Keser Web Design",
+        title: "Data Structures Java",
         img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+            "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
         id: 6,
-        title: "Design Banking App",
+        title: "Algorithms Java",
         img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+            "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
 ];
 

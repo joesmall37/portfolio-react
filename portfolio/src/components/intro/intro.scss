@@ -3,7 +3,7 @@
 .intro {
   background-color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 
 
@@ -29,6 +29,7 @@
       align-items: flex-end;
       justify-content: center;
       float: right;
+      border: 3px solid #15023a;
 
       @include mobile{
         align-items: flex-start;
@@ -44,8 +45,12 @@
     }
   }
   .right {
-    flex: 0.5;
-    position: relative;
+    // flex: 0.5;
+    // position: relative;
+    // border: 0.1rem #c0c0c0 solid;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  margin: 1rem;
 
     .wrapper {
       width: 100%;
@@ -62,7 +67,8 @@
 
       h1 {
         font-size: 30px;
-        // margin: 10px 0;
+        margin: center;
+        padding: center;
         color:#15023a;
         @include mobile{
           font-size: 40px;

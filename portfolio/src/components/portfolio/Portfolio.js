@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
-    featuredPortfolio,
-    webPortfolio,
-    mobilePortfolio,
-    designPortfolio,
-    contentPortfolio,
+    MernPortfolio,
+    JavascriptPortfolio,
+    PythonPortfolio,
+    Dsaportfolio,
+    // contentPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -14,52 +14,49 @@ export default function Portfolio() {
     const [data, setData] = useState([]);
     const list = [
         {
-            id: "featured",
-            title: "Featured",
+            id: "Mern",
+            title: "MERN",
         },
         {
-            id: "web",
-            title: "Django React Stack",
+            id: "javascript",
+            title: "Javascript",
         },
         {
             id: "mobile",
-            title: "Vanilla JS",
-        },
-        {
-            id: "design",
             title: "Python",
         },
         {
-            id: "content",
-            title: "MERN Stack",
+            id: "dsa",
+            title: "Data Structures/Algorithms",
         },
+
     ];
 
     useEffect(() => {
         switch (selected) {
-            case "featured":
-                setData(featuredPortfolio);
+            case "Mern":
+                setData(MernPortfolio);
                 break;
-            case "web":
-                setData(webPortfolio);
+            case "javascript":
+                setData(JavascriptPortfolio);
                 break;
             case "mobile":
-                setData(mobilePortfolio);
+                setData(PythonPortfolio);
                 break;
-            case "design":
-                setData(designPortfolio);
+            case "dsa":
+                setData(Dsaportfolio);
                 break;
-            case "content":
-                setData(contentPortfolio);
-                break;
+            // case "content":
+            //     setData(contentPortfolio);
+            //     break;
             default:
-                setData(featuredPortfolio);
+                setData(MernPortfolio);
         }
     }, [selected]);
 
     return (
         <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
+            <h1>Projects</h1>
             <ul>
                 {list.map((item) => (
                     <PortfolioList
@@ -67,6 +64,7 @@ export default function Portfolio() {
                         active={selected === item.id}
                         setSelected={setSelected}
                         id={item.id}
+                        link = {item.link}
                     />
                 ))}
             </ul>
@@ -77,7 +75,10 @@ export default function Portfolio() {
                             src={d.img}
                             alt=""
                         />
-                        <h3>{d.title}</h3>
+                        <h3>
+                            <a href={d.link}>{d.title}</a>
+                        </h3>
+
                     </div>
                 ))}
             </div>
