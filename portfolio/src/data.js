@@ -95,6 +95,7 @@ export const PythonPortfolio = [
         title: "To Do List",
         img:
             "https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        link: 'https://github.com/joesmall37/To-Do-List'
     },
     {
         id: 3,
