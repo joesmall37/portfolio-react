@@ -23,6 +23,11 @@ export default function Contact() {
                     {message && <span>Thank you for contacting me!</span>}
                 </form>
             </div>
+            <div className="bottom-nav">
+
+            </div>
+
+
         </div>
     );
 }
